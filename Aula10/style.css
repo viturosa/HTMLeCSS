@@ -1,0 +1,17 @@
+ .desafio1 {
+     color: orange;
+     background-color: cadetblue;
+ }
+
+ #lista1 {
+     color: hsl(243, 78%, 53%);
+     background-color: coral;
+     list-style-type: hebrew;
+
+ }
+
+ #lista2 {
+     color: hsl(250, 85%, 49%);
+     background-color: chartreuse;
+     list-style-type: armenian;
+ }

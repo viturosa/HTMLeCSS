@@ -1,0 +1,35 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    border: solid 2px;
+
+}
+
+body {
+    
+    height: 100vh;
+    display: grid;
+    grid-template-columns: 2fr 5fr;
+    grid-template-rows: 2fr 4fr 1fr;
+    grid-template-areas:
+        "header header header"
+        "nav section section"
+        "nav footer footer";
+
+}
+
+nav {
+    grid-area: nav;
+}
+
+header {
+    grid-area: header;
+}
+
+section {
+    grid-area: section;
+}
+
+footer {
+    grid-area: footer;
+}

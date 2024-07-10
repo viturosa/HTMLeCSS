@@ -1,0 +1,40 @@
+p {
+    display: inline;
+    border:solid 1px red;
+    color:aqua;
+    
+}
+span {
+    display: block;
+    border:solid 1px red;
+}
+
+.ad {
+    background-color: blueviolet;
+    height: 80px;
+    width: 60px;
+    display: inline-block;
+    position: fixed;
+    top:70%;
+    left:60%;
+}
+.yellow {
+    background-color: yellow;
+    height: 80px;
+    width: 80px;
+    display: inline-block;
+    top:30%;
+    left: 37%;
+    z-index: 1;
+    position:fixed;
+}
+.red {
+    background-color: red;
+    height: 80px;
+    width: 80px;
+    display: inline-block;
+    top:30%;
+    left:35%;
+    position:fixed;
+    z-index: 0; 
+}

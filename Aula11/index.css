@@ -1,0 +1,17 @@
+div {
+    /* propriedades decorativas */
+    border: solid 1px black;
+    display: inline-block;
+    font-size: 32px;
+    font-family: Arial;
+    /* propriedades que fazem o "problema" */
+    width: 100px;
+    height: 110px;
+    overflow: hidden;
+}
+
+.at2 {
+    margin: 5px 5px 8px 8px;
+    padding: 6px 6px 9px 9px;
+    overflow: auto;
+}
